@@ -1,0 +1,100 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+  
+}
+ 
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .main-menu ul li {
+        margin-right: -12px;
+    }
+    .slider-area {
+        margin-top: 170px;
+    }
+    .features-area {
+        margin-top: 0px;
+        z-index: 133;
+        position: relative;
+    }
+    .single-features {
+        padding: 45px 0;
+        margin-right: 20px;
+        /* margin-left: 8px; */
+    }
+    .single-service {
+        margin-bottom: 20px;
+    }
+    .blog-title h4 {
+        color: #fff;
+        font-size: 24px;
+    }
+
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .logo {
+        margin-top: 13px;
+    }
+    .slider-inner h3 {
+        font-size: 33px;
+        line-height: 51px;
+    }
+    .single-features {
+        border-bottom: 1px solid;
+    }
+    .subscribe-form button {
+       
+        margin-left: -27px;
+       
+    }
+    .single-service {
+        margin-bottom: 20px;
+    }
+    .team-wrapper.text-center {
+        margin-top: 10px;
+    }
+
+
+}
+
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .single-service {
+        margin-bottom: 20px;
+    }
+    .slider-icon {
+        margin-top: 36px;
+    }
+    .logo {
+        margin-top: 12px;
+    }
+    .subscribe-form button {
+        padding: 10px 57px;
+        margin-left: 61px;
+ 
+    }
+    .subscribe-form input {
+        width: 32%;
+    }
+    .pricing-item {
+        width: 100%;
+    }
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
